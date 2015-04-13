@@ -1,0 +1,15 @@
+<?php
+/**
+ * @file
+ */
+
+// Load constants
+require_once __DIR__. '/constants.inc';
+
+if (!file_exists(DRUPAL_MODS_VENDOR. '/p1ratrulezzz/drupal_mods_wrapper/install.inc')) {
+  die('Please run composer update for gb_common module!');
+}
+else {
+  require_once DRUPAL_MODS_VENDOR. '/p1ratrulezzz/drupal_mods_wrapper/constants.inc';
+  require_once DRUPAL_MODS_VENDOR. '/p1ratrulezzz/drupal_mods_wrapper/install.inc';
+}

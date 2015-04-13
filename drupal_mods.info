@@ -1,0 +1,16 @@
+name = Drupal Mods
+description = "Common features, hacks, custom fixes and kostils. Carried with love through many projects."
+package = "Gosbook"
+core = 7.x
+
+; dependencies[] = entity
+; dependencies[] = gcc
+; dependencies[] = masquerade
+dependencies[] = xautoload
+
+; Script with new ajax command
+; scripts[] = js/commands/gb_common.ajax_command_setval.js
+
+; Files to autoload classes
+; files[] = views/gb_common.views.inc
+;files[] = views/gb_common_better_exposed_filters_exposed_form_plugin.inc
